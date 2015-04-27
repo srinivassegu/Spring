@@ -17,7 +17,7 @@ public class HelloWorld {
 	@GET
 	@Produces(MediaType.TEXT_XML)
 	public String sayXMLHello() {
-		return "<?xml version=\"1.0\"?>" + "<hello> Hey Commited her"
+		return "<?xml version=\"1.0\"?>" + "<hello> Hey Commited by KP"
 				+ "</hello>";
 	}
 
