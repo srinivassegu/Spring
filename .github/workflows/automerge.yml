@@ -21,9 +21,9 @@ jobs:
       - name: automerge
         uses: "pascalgn/automerge-action@43fd7e11ee532218966343a262f10771b5eff978"
         env:
-          GITHUB_TOKEN: "8690a5436893ab6b080ea960698a66a56e1abdf1"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 env:
-    GITHUB_TOKEN: "8690a5436893ab6b080ea960698a66a56e1abdf1"
+    GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
     LABELS: "!wip,!work in progress,documentation-updated"
     AUTOMERGE: "ready-to-merge"
     AUTOREBASE: "ready-to-rebase-and-merge"
